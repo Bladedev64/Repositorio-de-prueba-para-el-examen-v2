@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <h1>Calculadora Simple</h1>
+
+        <form id="formSuma">
+            <h2>Suma</h2>
+            <input type="number" id="suma1" placeholder="Primer número" required>
+            <input type="number" id="suma2" placeholder="Segundo número" required>
+            <button type="submit">Calcular</button>
+            <p>Resultado: <span id="resultadoSuma">0</span></p>
+        </form>
+
+        <form id="formResta">
+            <h2>Resta</h2>
+            <input type="number" id="resta1" placeholder="Primer número" required>
+            <input type="number" id="resta2" placeholder="Segundo número" required>
+            <button type="submit">Calcular</button>
+            <p>Resultado: <span id="resultadoResta">0</span></p>
+        </form>
+
+        <form id="formMultiplicacion">
+            <h2>Multiplicación</h2>
+            <input type="number" id="multiplicacion1" placeholder="Primer número" required>
+            <input type="number" id="multiplicacion2" placeholder="Segundo número" required>
+            <button type="submit">Calcular</button>
+            <p>Resultado: <span id="resultadoMultiplicacion">0</span></p>
+        </form>
+
+        <form id="formDivision">
+            <h2>División</h2>
+            <input type="number" id="division1" placeholder="Primer número" required>
+            <input type="number" id="division2" placeholder="Segundo número" required>
+            <button type="submit">Calcular</button>
+            <p>Resultado: <span id="resultadoDivision">0</span></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
